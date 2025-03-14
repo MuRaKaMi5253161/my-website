@@ -1,4 +1,5 @@
-import { Box, Link } from "@mui/material";
+import Box from "@mui/material/Box";
+import Link from "@mui/material/Link";
 import React from "react";
 
 const Header = () => {
@@ -13,12 +14,7 @@ const Header = () => {
         paddingTop: "15px",
       }}
     >
-      <Link
-        href="/about"
-        underline="hover"
-        color="white"
-        sx={{ fontSize: "18px" }}
-      >
+      <Link href="/" underline="hover" color="white" sx={{ fontSize: "18px" }}>
         Home
       </Link>
       <Link

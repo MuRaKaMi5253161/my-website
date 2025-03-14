@@ -1,12 +1,21 @@
+"use client";
+
 import Footer from "@/components/home/Footer";
 import Header from "@/components/home/Header";
-import { Box, Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 
 export default function Top() {
   return (
     <Box sx={{ width: "100%", flexDirection: "column" }}>
-      <Box sx={{ width: "100%", height: "60px", backgroundColor: "#2a2a2a" }}>
+      <Box
+        sx={{
+          width: "100%",
+          height: "60px",
+          backgroundColor: "#2a2a2a",
+        }}
+      >
         <Box
           sx={{
             width: "250px",
@@ -30,7 +39,7 @@ export default function Top() {
           />
           <Typography sx={{ fontSize: "20px" }}>TAICHI MURAKAMI</Typography>
           <Typography sx={{ fontSize: "14px" }}>
-            Japanese freelance front-end engineer
+            software engineer | solo singer | track
           </Typography>
           <Divider
             sx={{ margin: "0 auto", paddingTop: "30px", width: "60%" }}
